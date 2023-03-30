@@ -8,7 +8,7 @@ permissions: read-all
 jobs:
   ansible-lint:
 
-    runs-on: ubuntu-latest
+    runs-on: vulcan
 
     steps:
     # Important: This sets up your GITHUB_WORKSPACE environment variable
